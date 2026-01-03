@@ -1,0 +1,13 @@
+/* === Frosted Glass base === */
+@import url("https://discordstyles.github.io/FrostedGlass/FrostedGlass.css");
+
+/* === Custom background === */
+:root {
+  --background-image: url("https://play.vsthemes.org/nova/1024576-2/400/512400c9e7713fb1d3a73a77f7de85f0.webp");
+
+  /* можно менять при желании */
+  --background-image-blur: 8px;
+  --tint-brightness: 0.4;
+  --window-padding: 20px;
+  --window-roundness: 12px;
+}
