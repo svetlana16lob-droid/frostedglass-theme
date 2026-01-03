@@ -1,13 +1,29 @@
 /* === Frosted Glass base === */
-@import url("https://discordstyles.github.io/FrostedGlass/FrostedGlass.css");
+@import url("https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css");
 
-/* === Custom background === */
+/* === Custom font: Makan Hati Cyrillic === */
+@font-face {
+  font-family: "Makan Hati Cyrillic";
+  src: url("https://raw.githubusercontent.com/svetlana16lob-droid/fonts/main/ofont.ru_Makan%20Hati.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* === Custom background + settings === */
 :root {
   --background-image: url("https://play.vsthemes.org/nova/1024576-2/400/512400c9e7713fb1d3a73a77f7de85f0.webp");
 
-  /* можно менять при желании */
   --background-image-blur: 8px;
   --tint-brightness: 0.4;
   --window-padding: 20px;
   --window-roundness: 12px;
+
+  /* основной шрифт */
+  --font: "Makan Hati Cyrillic";
+}
+
+/* === принудительно применяем шрифт === */
+* {
+  font-family: "Makan Hati Cyrillic", "gg sans", "Whitney", sans-serif !important;
 }
